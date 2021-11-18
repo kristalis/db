@@ -38,14 +38,14 @@
       "barid": "2" , 
       "id": "1" , 
       "jsonText": 
-        "{
-             "service":[
+        {
+           "service":[
                   {"start":"09:00","end":"12:00","name":"Morning"},
                   {"start":"12:00","end":"14:00","name":"Lunch"},
                   {"start":"14:00","end":"18:00","name":"Afternoon"},
                   {"start":"18:00","end":"22:00","name":"Evening"}
-              ]
-          }", 
+              ],
+          }, 
       }
     ]
 }
