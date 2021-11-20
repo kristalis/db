@@ -56,7 +56,7 @@
                   {"start":"12:00","end":"14:00","name":"Lunch"},
                   {"start":"14:00","end":"18:00","name":"Afternoon"},
                   {"start":"18:00","end":"22:00","name":"Evening"},
-                  {"start":"22:00","end":"23:00","name":"Evening"}
+                  {"start":"22:00","end":"23:00","name":"Evening"},
                   {"start":"23:00","end":"00:00","name":"Evening"}
               ]
           }
