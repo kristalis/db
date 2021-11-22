@@ -51,6 +51,11 @@
       "id": "1" , 
       "jsonText": 
         {
+           "profiles":[
+                  {"uid":"9","name":"Morning"},
+                  {"uid":"12","name":"Lunch"},
+                  {"uid":"14","name":"Afternoon"}
+              ],
            "service":[
                   {"start":"09:00","end":"12:00","name":"Morning"},
                   {"start":"12:00","end":"14:00","name":"Lunch"},
