@@ -1,4 +1,4 @@
-{
+         {
    "users": [
     {
       "id": 1,
@@ -37,7 +37,12 @@
         "status": "0"
      }
   ], 
- 
+  "newbarservice": [
+    {
+    "barid": "2" , 
+    "id": "1"
+    }
+],
    "hotcoffee":[
            {
               "title":"Black",
