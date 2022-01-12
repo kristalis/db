@@ -1,41 +1,31 @@
 {
-   "users":[
-      {
-         "id":1,
-         "username":"Test1",
-         "password":"password"
-      },
-      {
-         "id":2,
-         "username":"Test2",
-         "password":"password"
-      }
-   ],
-   "coffeebar":[
-      {
-         "id":1,
-         "name":"Test1 Bars",
-         "userid":"1",
-         "status":"1"
-      },
-      {
-         "id":2,
-         "name":"Test2 bar",
-         "userid":"2",
-         "status":"0"
-      },
-      {
-         "id":3,
-         "name":"Test3 bar",
-         "userid":"2",
-         "status":"1"
-      },
-      {
-         "id":4,
-         "name":"Test4 bar",
-         "userid":"2",
-         "status":"0"
-      }
-   ],
-  
+  "posts": [
+    {
+      "id": 1,
+      "title": "Post 1"
+    },
+    {
+      "id": 2,
+      "title": "Post 2"
+    },
+    {
+      "id": 3,
+      "title": "Post 3"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
