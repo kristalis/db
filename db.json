@@ -37,21 +37,7 @@
         "status": "0"
      }
   ], 
-   "barservice":[
-           {
-              "barid":"2",
-              "id":"1",
-              "jsonText":{
-                 "service":[
-                    {
-                       "start":"09:00",
-                       "end":"12:00",
-                       "name":"Morning",
-                    },
-                    ],
-              }
-           }
-         ],
+ 
    "hotcoffee":[
            {
               "title":"Black",
