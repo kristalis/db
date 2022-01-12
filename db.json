@@ -43,7 +43,7 @@
     "id": "1",
     "jsonText": 
         {
-        "service":[
+        "schedule":[
             { 
                 "Monday": [
                     {"start":"09:00","end":"12:00","name":"Morning"},
@@ -51,12 +51,28 @@
                     {"start":"14:00","end":"16:00","name":"Afternoon"},
                     {"start":"16:00","end":"17:00","name":"Xmas Party"}
                 ]
-            }    
+            },
+            { 
+                "Tuesday": [
+                    {"start":"05:00","end":"12:00","name":"Morning"},
+                    {"start":"12:00","end":"14:00","name":"Lunch"},
+                    {"start":"14:00","end":"16:00","name":"Afternoon"},
+                    {"start":"16:00","end":"17:00","name":"Xmas Party"}
+                ]
+            }   
+        ],
+        "service":[
+            {"start":"09:00","end":"12:00","name":"Morning"},
+            {"start":"12:00","end":"14:00","name":"Lunch"},
+            {"start":"14:00","end":"16:00","name":"Afternoon"},
+            {"start":"16:00","end":"17:00","name":"Xmas Party"}
         ]
-        }
     }
+   }
 ],
-   "hotcoffee":[
+  
+    
+   "hotcoffee": [
            {
               "title":"Black",
               "description":"Black coffee is as simple as it gets with ground coffee beans steeped in hot water, served warm.",
