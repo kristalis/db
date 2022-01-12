@@ -1,113 +1,270 @@
 {
-  "users": [
-    { "id": 1, "username": "Test1", "password": "password"},
-    { "id": 2, "username": "Test2", "password": "password"}
-    ],
-   "coffeebar": [
-      { "id": 1, "name": "Test1 Bars", "userid": "1", "status": "1"},
-      { "id": 2, "name": "Test2 bar", "userid": "2", "status": "0"},
-      { "id": 3, "name": "Test3 bar", "userid": "2", "status": "1"},
-      { "id": 4, "name": "Test4 bar", "userid": "2", "status": "0"}
-    ],
-  "hotcoffee": [
+   "users":[
       {
-        "title":"Black","description":"Black coffee is as simple as it gets with ground coffee beans steeped in hot water, served warm.",
-       "ingredients":["Coffee"],
-        "id":1,
-        "barid" : "1",
-        "instock": "0"
+         "id":1,
+         "username":"Test1",
+         "password":"password"
       },
       {
-        "title":"Cappacinno","description":"Black coffee is as simple as it gets with ground coffee beans steeped in hot water, served warm.",
-       "ingredients":["Espresso","Steamed Milk","Foam"],
-        "id":2,
-        "barid" : "2",
-        "instock": "0"
-      },
-      {
-        "title":"Mocha",
-        "description":"For all you chocolate lovers out there, you’ll fall in love with a mocha (or maybe you already have",
-        "ingredients":["Espresso","Steamed Milk","Chocolate"],
-        "id":12,
-        "barid" : "2",
-        "instock": "1"
+         "id":2,
+         "username":"Test2",
+         "password":"password"
       }
-    ],
-  "barservice": [
-      {
-      "barid": "2" , 
-      "id": "1" , 
-      "jsonText": 
-        {
-           "service":[
-                  {"start":"09:00","end":"12:00","name":"Morning"},
-                  {"start":"12:00","end":"14:00","name":"Lunch"},
-                  {"start":"14:00","end":"16:00","name":"Afternoon"},
-                  {"start":"16:00","end":"17:00","name":"Xmas Party"},
-                  {"start":"17:00","end":"20:00","name":"Birthday Bash"},
-                  {"start":"20:00","end":"22:00","name":"Easter Night"},
-                  {"start":"22:00","end":"23:00","name":"31st Night"},
-              ],
-          },
-      },
-    {
-      "barid": "1" , 
-      "id": "1" , 
-      "jsonText": 
-        {
-           "profiles":[
-                  {"uid":"9","name":"Morning"},
-                  {"uid":"12","name":"Lunch"},
-                  {"uid":"14","name":"Afternoon"},
-              ],
-           "service":[
-                  {"start":"09:00","end":"12:00","name":"Morning"},
-                  {"start":"12:00","end":"14:00","name":"Lunch"},
-                  {"start":"14:00","end":"18:00","name":"Afternoon"},
-                  {"start":"18:00","end":"22:00","name":"Evening"},
-                  {"start":"22:00","end":"23:00","name":"Evening"},
-                  {"start":"23:00","end":"24:00","name":"Evening"},
-              ],
-          },
-      },
    ],
-  "newbarservice": [
+   "coffeebar":[
       {
-      "barid": "2" , 
-      "id": "1" , 
-      "jsonText": 
-        {
-           "service":[
-                  {"start":"09:00","end":"12:00","name":"Morning"},
-                  {"start":"12:00","end":"14:00","name":"Lunch"},
-                  {"start":"14:00","end":"16:00","name":"Afternoon"},
-                  {"start":"16:00","end":"17:00","name":"Xmas Party"},
-                  {"start":"17:00","end":"20:00","name":"Birthday Bash"},
-                  {"start":"20:00","end":"22:00","name":"Easter Night"},
-                  {"start":"22:00","end":"23:00","name":"31st Night"},
-              ],
-          },
+         "id":1,
+         "name":"Test1 Bars",
+         "userid":"1",
+         "status":"1"
       },
-    {
-      "barid": "1" , 
-      "id": "1" , 
-      "jsonText": 
-        {
-           "profiles":[
-                  {"uid":"9","name":"Morning"},
-                  {"uid":"12","name":"Lunch"},
-                  {"uid":"14","name":"Afternoon"},
-              ],
-           "service":[
-                  {"start":"09:00","end":"12:00","name":"Morning"},
-                  {"start":"12:00","end":"14:00","name":"Lunch"},
-                  {"start":"14:00","end":"18:00","name":"Afternoon"},
-                  {"start":"18:00","end":"22:00","name":"Evening"},
-                  {"start":"22:00","end":"23:00","name":"Evening"},
-                  {"start":"23:00","end":"24:00","name":"Evening"},
-              ],
-          },
+      {
+         "id":2,
+         "name":"Test2 bar",
+         "userid":"2",
+         "status":"0"
       },
+      {
+         "id":3,
+         "name":"Test3 bar",
+         "userid":"2",
+         "status":"1"
+      },
+      {
+         "id":4,
+         "name":"Test4 bar",
+         "userid":"2",
+         "status":"0"
+      }
    ],
+   "hotcoffee":[
+      {
+         "title":"Black",
+         "description":"Black coffee is as simple as it gets with ground coffee beans steeped in hot water, served warm.",
+         "ingredients":[
+            "Coffee"
+         ],
+         "id":1,
+         "barid":"1",
+         "instock":"0"
+      },
+      {
+         "title":"Cappacinno",
+         "description":"Black coffee is as simple as it gets with ground coffee beans steeped in hot water, served warm.",
+         "ingredients":[
+            "Espresso",
+            "Steamed Milk",
+            "Foam"
+         ],
+         "id":2,
+         "barid":"2",
+         "instock":"0"
+      },
+      {
+         "title":"Mocha",
+         "description":"For all you chocolate lovers out there, you’ll fall in love with a mocha (or maybe you already have",
+         "ingredients":[
+            "Espresso",
+            "Steamed Milk",
+            "Chocolate"
+         ],
+         "id":12,
+         "barid":"2",
+         "instock":"1"
+      }
+   ],
+   "barservice":[
+      {
+         "barid":"2",
+         "id":"1",
+         "jsonText":{
+            "service":[
+               {
+                  "start":"09:00",
+                  "end":"12:00",
+                  "name":"Morning"
+               },
+               {
+                  "start":"12:00",
+                  "end":"14:00",
+                  "name":"Lunch"
+               },
+               {
+                  "start":"14:00",
+                  "end":"16:00",
+                  "name":"Afternoon"
+               },
+               {
+                  "start":"16:00",
+                  "end":"17:00",
+                  "name":"Xmas Party"
+               },
+               {
+                  "start":"17:00",
+                  "end":"20:00",
+                  "name":"Birthday Bash"
+               },
+               {
+                  "start":"20:00",
+                  "end":"22:00",
+                  "name":"Easter Night"
+               },
+               {
+                  "start":"22:00",
+                  "end":"23:00",
+                  "name":"31st Night"
+               }
+            ]
+         }
+      },
+      {
+         "barid":"1",
+         "id":"1",
+         "jsonText":{
+            "profiles":[
+               {
+                  "uid":"9",
+                  "name":"Morning"
+               },
+               {
+                  "uid":"12",
+                  "name":"Lunch"
+               },
+               {
+                  "uid":"14",
+                  "name":"Afternoon"
+               }
+            ],
+            "service":[
+               {
+                  "start":"09:00",
+                  "end":"12:00",
+                  "name":"Morning"
+               },
+               {
+                  "start":"12:00",
+                  "end":"14:00",
+                  "name":"Lunch"
+               },
+               {
+                  "start":"14:00",
+                  "end":"18:00",
+                  "name":"Afternoon"
+               },
+               {
+                  "start":"18:00",
+                  "end":"22:00",
+                  "name":"Evening"
+               },
+               {
+                  "start":"22:00",
+                  "end":"23:00",
+                  "name":"Evening"
+               },
+               {
+                  "start":"23:00",
+                  "end":"24:00",
+                  "name":"Evening"
+               }
+            ]
+         }
+      }
+   ],
+   "newbarservice":[
+      {
+         "barid":"2",
+         "id":"1",
+         "jsonText":{
+            "service":[
+               {
+                  "start":"09:00",
+                  "end":"12:00",
+                  "name":"Morning"
+               },
+               {
+                  "start":"12:00",
+                  "end":"14:00",
+                  "name":"Lunch"
+               },
+               {
+                  "start":"14:00",
+                  "end":"16:00",
+                  "name":"Afternoon"
+               },
+               {
+                  "start":"16:00",
+                  "end":"17:00",
+                  "name":"Xmas Party"
+               },
+               {
+                  "start":"17:00",
+                  "end":"20:00",
+                  "name":"Birthday Bash"
+               },
+               {
+                  "start":"20:00",
+                  "end":"22:00",
+                  "name":"Easter Night"
+               },
+               {
+                  "start":"22:00",
+                  "end":"23:00",
+                  "name":"31st Night"
+               }
+            ]
+         }
+      },
+      {
+         "barid":"1",
+         "id":"1",
+         "jsonText":{
+            "profiles":[
+               {
+                  "uid":"9",
+                  "name":"Morning"
+               },
+               {
+                  "uid":"12",
+                  "name":"Lunch"
+               },
+               {
+                  "uid":"14",
+                  "name":"Afternoon"
+               }
+            ],
+            "service":[
+               {
+                  "start":"09:00",
+                  "end":"12:00",
+                  "name":"Morning"
+               },
+               {
+                  "start":"12:00",
+                  "end":"14:00",
+                  "name":"Lunch"
+               },
+               {
+                  "start":"14:00",
+                  "end":"18:00",
+                  "name":"Afternoon"
+               },
+               {
+                  "start":"18:00",
+                  "end":"22:00",
+                  "name":"Evening"
+               },
+               {
+                  "start":"22:00",
+                  "end":"23:00",
+                  "name":"Evening"
+               },
+               {
+                  "start":"23:00",
+                  "end":"24:00",
+                  "name":"Evening"
+               }
+            ]
+         }
+      }
+   ]
 }
-    
