@@ -37,7 +37,7 @@
         "status": "0"
      }
   ], 
-  "newbarservice": [
+  "barservice": [
     {
     "barid": "2" , 
     "id": "1",
