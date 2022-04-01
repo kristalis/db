@@ -187,7 +187,39 @@
     }
    }
 ],
-  
+  "categories": [
+           {
+              "title":"Black",
+              "description":"Black coffee is as simple as it gets with ground coffee beans steeped in hot water, served warm.",
+              "ingredients":[
+                 "Coffee"
+              ],
+              "id":1,
+              
+           },
+           {
+              "title":"Cappacinno",
+              "description":"Black coffee is as simple as it gets with ground coffee beans steeped in hot water, served warm.",
+              "ingredients":[
+                 "Espresso",
+                 "Steamed Milk",
+                 "Foam"
+              ],
+              "id":2,
+              
+           },
+           {
+              "title":"Mocha",
+              "description":"For all you chocolate lovers out there, you’ll fall in love with a mocha (or maybe you already have",
+              "ingredients":[
+                 "Espresso",
+                 "Steamed Milk",
+                 "Chocolatef"
+              ],
+              "id":3,
+              
+           }
+        ],
     
    "hotcoffee": [
            {
