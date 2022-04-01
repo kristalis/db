@@ -219,5 +219,31 @@
               "id":3
               
            }
-        ]
+        ],
+   "products":[
+     {
+        "id": 1,
+        "name": "Test1 Bars",
+        "userid": "1",
+        "status": "1"
+     },
+     {
+        "id": 2,
+        "name": "Test2 bar",
+        "userid": "2",
+        "status": "0"
+     },
+     {
+        "id": 3,
+        "name": "Test3 bar",
+        "userid": "2",
+        "status": "1"
+     },
+     {
+        "id": 4,
+        "name": "Test4 bar",
+        "userid": "2",
+        "status": "0"
+     }
+  ]
      }
