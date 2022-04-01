@@ -152,25 +152,29 @@
         "id": 1,
         "name": "Test1 Bars",
         "catid": "1",
-        "price": "12.99"
+        "price": "12.99",
+         "image":"1.jpg"
      },
      {
         "id": 2,
         "name": "Test2 bar",
         "catid": "2",
-        "price": "19.50"
+        "price": "19.50",
+         "image":"2.jpg"
      },
      {
         "id": 3,
         "name": "Test3 bar",
         "catid": "2",
-        "status": "11.99"
+        "status": "11.99",
+         "image":"3.jpg"
      },
      {
         "id": 4,
         "name": "Test4 bar",
         "catid": "2",
-        "status": "10.49"
+        "status": "10.49",
+         "image":"4.jpg"
      }
   ]
      }
