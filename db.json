@@ -194,7 +194,7 @@
               "ingredients":[
                  "Coffee"
               ],
-              "id":1,
+              "id":1
               
            },
            {
@@ -205,7 +205,7 @@
                  "Steamed Milk",
                  "Foam"
               ],
-              "id":2,
+              "id":2
               
            },
            {
@@ -216,7 +216,7 @@
                  "Steamed Milk",
                  "Chocolatef"
               ],
-              "id":3,
+              "id":3
               
            }
         ],
