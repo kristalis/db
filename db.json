@@ -42,9 +42,7 @@
     {
     "churchkey": "tma002" , 
     "churchid": "1",
-    "jsonText": 
-        {
-        "schedule":[
+     "schedule":[
             { 
                 "17/07/2022": [
                     {"start":"09:00","end":"12:00","name":"Phanerosis"},
@@ -108,7 +106,7 @@
             {"datetime":"15/07/2022","msg":"12:00","book":"Morning", "playlist":"songs"},
             {"datetime":"24/07/2022","msg":"12:001","book":"Morning1", "playlist":"songs1"}
         ]
-    }
+    
    }
 ],
   "categories": [
