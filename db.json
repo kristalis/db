@@ -38,32 +38,32 @@
         "status": "0"
      }
   ], 
-  "barservice": [
+  "churchboard": [
     {
-    "barid": "2" , 
-    "id": "1",
+    "churchkey": "tma002" , 
+    "churchid": "1",
     "jsonText": 
         {
         "schedule":[
             { 
-                "Monday": [
-                    {"start":"09:00","end":"12:00","name":"Morning"},
+                "17/07/2022": [
+                    {"start":"09:00","end":"12:00","name":"Phanerosis"},
                     {"start":"12:00","end":"14:00","name":"Lunch"},
                     {"start":"14:00","end":"16:00","name":"Afternoon"},
                     {"start":"16:00","end":"17:00","name":"Xmas Party"}
                 ]
             },
             { 
-                "Tuesday": [
-                    {"start":"05:00","end":"12:00","name":"Morning"},
+                "18/07/2022": [
+                    {"start":"05:00","end":"12:00","name":"CTA"},
                     {"start":"12:00","end":"14:00","name":"Lunch"},
                     {"start":"14:00","end":"16:00","name":"Afternoon"},
                     {"start":"16:00","end":"17:00","name":"Xmas Party"}
                 ]
             },
             { 
-                "Wednesday": [
-                    {"start":"05:00","end":"12:00","name":"Morning"},
+                "19/07/2022": [
+                    {"start":"05:00","end":"12:00","name":"Shemen"},
                     {"start":"12:00","end":"14:00","name":"Lunch"},
                     {"start":"14:00","end":"16:00","name":"Afternoon"},
                     {"start":"16:00","end":"17:00","name":"Xmas Party"},
@@ -71,7 +71,7 @@
                 ]
             },
             { 
-                "Thursday": [
+                "20/07/2022": [
                     {"start":"05:00","end":"12:00","name":"Morning"},
                     {"start":"12:00","end":"14:00","name":"Lunch"},
                     {"start":"14:00","end":"16:00","name":"Afternoon"},
@@ -80,7 +80,7 @@
                 ]
             },
             { 
-                "Friday": [
+                "21/07/2022": [
                     {"start":"05:00","end":"12:00","name":"Morning"},
                     {"start":"12:00","end":"14:00","name":"Lunch"},
                     {"start":"14:00","end":"16:00","name":"Afternoon"},
@@ -88,7 +88,7 @@
                 ]
             },
             { 
-                "Saturday": [
+                "23/07/2022": [
                     {"start":"05:00","end":"12:00","name":"Morning"},
                     {"start":"12:00","end":"14:00","name":"Lunch"},
                     {"start":"14:00","end":"16:00","name":"Afternoon"},
@@ -96,7 +96,7 @@
                 ]
             },
             { 
-                "Sunday": [
+                "24/07/2022": [
                     {"start":"05:00","end":"12:00","name":"Morning"},
                     {"start":"12:00","end":"14:00","name":"Lunch"},
                     {"start":"14:00","end":"16:00","name":"Afternoon"},
@@ -104,12 +104,9 @@
                 ]
             }                  
         ],
-        "service":[
-            {"start":"09:00","end":"12:00","name":"Morning"},
-            {"start":"12:00","end":"14:00","name":"Lunch"},
-            {"start":"14:00","end":"16:00","name":"Afternoon"},
-            {"start":"16:00","end":"17:00","name":"Xmas Party"},
-            {"start":"17:00","end":"23:00","name":"Xmas Party"}
+        "campaign":[
+            {"datetime":"15/07/2022","msg":"12:00","book":"Morning", "playlist":"songs"},
+            {"datetime":"24/07/2022","msg":"12:001","book":"Morning1", "playlist":"songs1"},
         ]
     }
    }
