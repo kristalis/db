@@ -111,7 +111,7 @@
 ],
   "categories": [
            {
-              "title":"Black",
+              "title":"Rice",
               "description":"Black coffee is as simple as it gets with ground coffee beans steeped in hot water, served warm.",
               "ingredients":[
                  "Coffee"
@@ -120,7 +120,7 @@
               
            },
            {
-              "title":"Cappacinno",
+              "title":"Oil",
               "description":"Black coffee is as simple as it gets with ground coffee beans steeped in hot water, served warm.",
               "ingredients":[
                  "Espresso",
@@ -131,7 +131,7 @@
               
            },
            {
-              "title":"Mocha",
+              "title":"Spices",
               "description":"For all you chocolate lovers out there, you’ll fall in love with a mocha (or maybe you already have",
               "ingredients":[
                  "Espresso",
@@ -145,29 +145,106 @@
    "products":[
      {
         "id": 1,
-        "name": "Test1 Bars",
-        "catid": "1",
+        "name": "KTC Sunflower Oil",
+        "catid": "2",
         "price": "12.99",
          "image":"1.jpg"
      },
      {
         "id": 2,
-        "name": "Test2 bar",
+        "name": "KTC Veg Oil",
         "catid": "2",
         "price": "19.50",
          "image":"2.jpg"
      },
      {
         "id": 3,
-        "name": "Test3 bar",
+        "name": "Pride Veg Oil",
         "catid": "2",
         "status": "11.99",
          "image":"3.jpg"
      },
      {
         "id": 4,
-        "name": "Test4 bar",
+        "name": "Peepal Vegetable Oil ",
         "catid": "2",
+        "status": "10.49",
+         "image":"4.jpg"
+     },
+     {
+        "id": 5,
+        "name": "Akash Basmati Rice",
+        "catid": "1",
+        "price": "19.50",
+         "image":"2.jpg"
+     },
+     {
+        "id": 6,
+        "name": "Badshah Basmati Rice",
+        "catid": "1",
+        "status": "11.99",
+         "image":"3.jpg"
+     },
+     {
+        "id": 7,
+        "name": "Daawat Extra Long Basmati",
+        "catid": "1",
+        "status": "10.49",
+         "image":"4.jpg"
+     },
+     {
+        "id": 8,
+        "name": "Kohinoor Extra Fine Basmati - Silver",
+        "catid": "1",
+        "price": "19.50",
+         "image":"2.jpg"
+     },
+     {
+        "id": 9,
+        "name": "Laila Basmati Rice",
+        "catid": "1",
+        "status": "11.99",
+         "image":"3.jpg"
+     },
+     {
+        "id": 10,
+        "name": "Salaam Basmati Rice",
+        "catid": "1",
+        "status": "10.49",
+         "image":"4.jpg"
+     },
+     {
+        "id": 11,
+        "name": "Tropical Sun Caribbean Curry Hot",
+        "catid": "3",
+        "status": "11.99",
+         "image":"3.jpg"
+     },
+     {
+        "id": 12,
+        "name": "Rajah Tandoori Masala",
+        "catid": "3",
+        "status": "10.49",
+         "image":"4.jpg"
+     },
+     {
+        "id": 13,
+        "name": "Rajah Hot Madras Curry Powder",
+        "catid": "3",
+        "price": "19.50",
+         "image":"2.jpg"
+     },
+     {
+        "id": 14,
+        "name": "Heera Whole Coriander Seeds (Dhaniya Whole)",
+        "catid": "3",
+        "status": "11.99",
+         "image":"3.jpg"
+     },
+     {
+        "id": 15,
+        "name": "Heera Ajwain Seeds",
+        "catid": "3",
         "status": "10.49",
          "image":"4.jpg"
      }
