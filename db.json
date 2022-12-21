@@ -47,7 +47,55 @@
     {
       "label": "2 Kings",
       "value": "2 Kings"
-    }                       
+    },
+    {
+      "label": "1 Chronicles",
+      "value": "1 Chronicles"
+    },
+    {
+      "label": "2 Chronicles",
+      "value": "2 Chronicles"
+    },
+    {
+      "label": "Leviticus",
+      "value": "Leviticus"
+    },
+    {
+      "label": "Ezra",
+      "value": "Ezra"
+    },
+    {
+      "label": "Nehemiah",
+      "value": "Nehemiah"
+    },
+    {
+      "label": "Esther",
+      "value": "Esther"
+    },
+    {
+      "label": "Job",
+      "value": "Job"
+    },
+    {
+      "label": "Psalms",
+      "value": "Psalms"
+    },
+    {
+      "label": "Proverbs",
+      "value": "Proverbs"
+    },
+    {
+      "label": "Ecclesiastes",
+      "value": "Ecclesiastes"
+    },
+    {
+      "label": "Song of Solomons",
+      "value": "Song of Solomon"
+    },
+    {
+      "label": "Isaiah",
+      "value": "Isaiah"
+    }   
   ],
  
  "coffeebar":[
