@@ -89,13 +89,77 @@
     "value": "Ecclesiastes"
   },
   {
-    "label": "Song of Solomons",
+    "label": "Song of Solomon",
     "value": "Song of Solomon"
   },
   {
     "label": "Isaiah",
     "value": "Isaiah"
-  }   
+  },
+  {
+    "label": "Jeremiah",
+    "value": "Jeremiah"
+  },
+  {
+    "label": "Lamentations",
+    "value": "Lamentations"
+  },
+  {
+    "label": "Ezekiel",
+    "value": "Ezekiel"
+  },
+  {
+    "label": "Daniel",
+    "value": "Daniel"
+  },
+  {
+    "label": "Hosea",
+    "value": "Hosea"
+  },
+  {
+    "label": "Joel",
+    "value": "Joel"
+  },
+  {
+    "label": "Amos",
+    "value": "Amos"
+  },
+  {
+    "label": "Obadiah",
+    "value": "Obadiah"
+  },
+  {
+    "label": "Jonah",
+    "value": "Jonah"
+  },
+  {
+    "label": "Micah",
+    "value": "Micah"
+  },
+  {
+    "label": "Nahum",
+    "value": "Nahum"
+  },
+  {
+    "label": "Habakkuk",
+    "value": "Habakkuk"
+  },
+  {
+    "label": "Zephaniah",
+    "value": "Zephaniah"
+  },
+  {
+    "label": "Haggai",
+    "value": "Haggai"
+  },
+  {
+    "label": "Zechariah",
+    "value": "Zechariah"
+  },
+  {
+    "label": "Malachi",
+    "value": "Malachi"
+  },   
 ],
  
  "coffeebar":[
