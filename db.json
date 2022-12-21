@@ -114,31 +114,119 @@
   }
 ],
  
- "coffeebar":[
+ "bibleversions":[
      {
-        "id": 1,
-        "name": "Test1 Bars",
-        "userid": "1",
-        "status": "1"
-     },
-     {
-        "id": 2,
-        "name": "Test2 bar",
-        "userid": "2",
-        "status": "0"
-     },
-     {
-        "id": 3,
-        "name": "Test3 bar",
-        "userid": "2",
-        "status": "1"
-     },
-     {
-        "id": 4,
-        "name": "Test4 bar",
-        "userid": "2",
-        "status": "0"
-     }
+    "label": "Genesis",
+    "value": "Genesis"
+  },
+  {
+    "label": "Exodus",
+    "value": "Exodus"
+  },
+  {
+    "label": "Leviticus",
+    "value": "Leviticus"
+  },
+  {
+    "label": "Numbers",
+    "value": "Numbers"
+  },
+  {
+    "label": "Deuteronomy",
+    "value": "Deuteronomy"
+  },
+  {
+    "label": "Joshua",
+    "value": "Joshua"
+  },
+  {
+    "label": "Judges",
+    "value": "Judges"
+  },
+  {
+    "label": "Ruth",
+    "value": "Ruth"
+  },
+  {
+    "label": "1 Samuel",
+    "value": "1 Samuel"
+  },
+  {
+    "label": "2 Samuel",
+    "value": "2 Samuel"
+  },
+  {
+    "label": "1 Kings",
+    "value": "1 Kings"
+  },
+  {
+    "label": "2 Kings",
+    "value": "2 Kings"
+  },
+  {
+    "label": "1 Chronicles",
+    "value": "1 Chronicles"
+  },
+  {
+    "label": "2 Chronicles",
+    "value": "2 Chronicles"
+  },
+  {
+    "label": "Leviticus",
+    "value": "Leviticus"
+  },
+  {
+    "label": "Ezra",
+    "value": "Ezra"
+  },
+  {
+    "label": "Nehemiah",
+    "value": "Nehemiah"
+  },
+  {
+    "label": "Esther",
+    "value": "Esther"
+  },
+  {
+    "label": "Job",
+    "value": "Job"
+  },
+  {
+    "label": "Psalms",
+    "value": "Psalms"
+  },
+  {
+    "label": "Proverbs",
+    "value": "Proverbs"
+  },
+  {
+    "label": "Ecclesiastes",
+    "value": "Ecclesiastes"
+  },
+  {
+    "label": "Song of Solomon",
+    "value": "Song of Solomon"
+  },
+  {
+    "label": "Isaiah",
+    "value": "Isaiah"
+  },
+  {
+    "label": "Jeremiah",
+    "value": "Jeremiah"
+  },
+  {
+    "label": "Lamentations",
+    "value": "Lamentations"
+  },
+  {
+    "label": "Ezekiel",
+    "value": "Ezekiel"
+  },
+  {
+    "label": "Daniel",
+    "value": "Daniel"
+  }
   ], 
   "churchboard": [
     {
